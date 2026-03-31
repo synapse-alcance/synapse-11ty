@@ -88,44 +88,6 @@ permalink: "/"
   <div class="title">Casos de sucesso</div>
   <div class="container">
     <div class="row aln-center">
-      {# {% for case in gallery %}
-      <div class="col-4 col-12-medium">
-        <section class="highlight">
-          <h3>{{ case.header }}</h3>
-          <div class="review">
-            <div class="review-header">
-              <div class="review-avatar">
-                <img src="{{ site.path.prefix }}{{ site.path.assets }}{{ case.reviewerImg }}" alt="{{ case.reviewerAlt }}">
-                <span class="reviewer">{{ case.reviewerName }}</span>
-              </div>
-              <div class="review-rating">
-                <span class="review-rating-outer">
-                  <span class="review-rating-inner"></span>
-                </span>
-              </div>
-            </div>
-            <div class="review-quote">
-              <div class="review-quote-decor">
-                “
-              </div>
-              <div class="review-quote-text">
-                {% for paragraph in case.reviewText %}
-                <p>{{ paragraph }}</p>
-                {% endfor %}
-              </div>
-            </div>
-          </div>
-          <div class="case">
-            {% for paragraph in case.text %}
-            <p>{{ paragraph }}</p>
-            {% endfor %}
-          </div>
-          <ul class="actions">
-            <li><a href="{{ case.link }}" class="button style1">{{ case.btnText }}</a></li>
-          </ul>
-        </section>
-      </div>
-      {% endfor %} #}
       {% for case in gallery %}
       <div class="col-4 col-12-medium">
         <section class="case">
@@ -157,17 +119,14 @@ permalink: "/"
               </div>
             </div>
           </div>
-
           <div class="case-description">
             {% for paragraph in case.text %}
             <p>{{ paragraph }}</p>
             {% endfor %}
           </div>
-          <div>
           <ul class="actions">
             <li><a href="{{ case.link }}" class="button style1">{{ case.btnText }}</a></li>
           </ul>
-          </div>
         </section>
       </div>
       {% endfor %}
