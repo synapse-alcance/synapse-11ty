@@ -1,0 +1,5 @@
+[
+  { "key": "home", "label": "Início", "url": "/", "children": null},
+  { "key": "automacao", "label": "Automação", "url": "/automacao/", "children": null },
+  { "key": "contato", "label": "Contato", "url": "/contato/", "children": null }
+]

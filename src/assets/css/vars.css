@@ -1,0 +1,7 @@
+:root {
+  /* Typography */
+  --font-family-serif-base: "Playfair Display", serif;
+  --font-family-serif-alt: "Old Standard TT", serif;
+  --font-family-sans-base: "Roboto", sans-serif;
+  --font-family-sans-alt: "Roboto Condensed", sans-serif;
+}

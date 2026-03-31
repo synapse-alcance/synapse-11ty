@@ -1,0 +1,107 @@
+{
+  "services": [
+    {
+      "style": "fa-solid",
+      "icon": "fa-map-location-dot",
+      "header": "Gestão do Perfil de Empresa",
+      "text": "Cuidamos do seu Perfil de Empresa no Google para que ele apareça mais, transmita confiança e gere contatos reais de pessoas que já estão procurando pelo seu serviço."
+    },
+    {
+      "style": "fa-solid",
+      "icon": "fa-chart-line",
+      "header": "Tráfego Pago",
+      "text": "Planejamos e gerenciamos anúncios no Google e nas redes sociais para atrair as pessoas certas, no momento certo, com foco em gerar contatos e oportunidades reais de negócio."
+    },
+    {
+      "style": "fa-solid",
+      "icon": "fa-comments",
+      "header": "Gestão de Mídias Sociais",
+      "text": "Organizamos e produzimos conteúdo para suas redes sociais com foco em presença, clareza e consistência, ajudando sua marca a se comunicar melhor e gerar confiança ao longo do tempo."
+    },
+    {
+      "style": "fa-solid",
+      "icon": "fa-laptop-code",
+      "header": "Landing pages e Websites",
+      "text": "Criamos sites e landing pages objetivos, rápidos e bonitos, pensados para explicar bem o que você faz e transformar visitantes em contatos de forma natural."
+    },
+    {
+      "style": "fa-solid",
+      "icon": "fa-gears",
+      "header": "Automação",
+      "text": "Implementamos automações para organizar atendimentos, responder mais rápido e evitar perda de oportunidades, conectando suas áreas de negócio a processos do dia a dia para ganhar eficiência e escala."
+    }
+  ],
+  "method": [
+    {
+      "img": "/images/method-1.webp",
+      "alt": "",
+      "header": "Porque algumas estratégias funcionam e outras não?",
+      "text": [
+        "Muita gente começa a investir em marketing sem saber exatamente o que esperar de resultado. Campanhas no ar, posts publicados, anúncios rodando — mas pouca clareza sobre o que realmente está funcionando.",
+        "O nosso trabalho começa antes disso. A gente entende o que você vende, quem precisa desse serviço e como essas pessoas costumam procurar por soluções como a sua, seja no Google, nas redes sociais ou em outros canais.",
+        "Com essas informações claras, conseguimos tomar decisões mais objetivas: onde faz sentido aparecer, que tipo de mensagem usar e como acompanhar se o marketing está, de fato, ajudando o negócio a crescer.",
+        "Esse cuidado inicial é o que diferencia o nosso método. Em vez de apostar em ações isoladas, estruturamos a estratégia, colocamos em prática e acompanhamos de perto o que está dando resultado — ajustando sempre que necessário para melhorar o desempenho."
+      ]
+    },
+    {
+      "img": "/images/method-2.webp",
+      "alt": "",
+      "header": "Como o método da Synapse pode ajudar o meu negócio?",
+      "text": [
+        "Hoje, a maioria das decisões começa no Google. Antes de falar com alguém, as pessoas pesquisam, comparam e tentam entender em quem podem confiar.",
+        "Quando alguém procura um serviço, o Google avalia basicamente três coisas: quem transmite mais confiança, quem está mais próximo e quem consegue explicar com clareza o que faz.",
+        "É exatamente nesse ponto que o nosso trabalho entra. A gente organiza a presença digital da sua marca para que ela apareça bem posicionada quando a decisão está sendo tomada — com informações claras, contexto certo e sinais de credibilidade.",
+        "Não se trata apenas de aparecer mais, mas de aparecer melhor, no momento em que isso realmente faz diferença."
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "header": "Clínica Sol",
+      "reviewerImg": "/images/profile-picture-1.webp",
+      "reviewerAlt": "Foto de perfil do usuário.",
+      "reviewerName": "Cristiani Carvalho",
+      "reviewText": [
+        "Passamos por diversas empresas que não conseguiam alcançar nosso objetivo. A Synapse conseguiu absorver todas as nossa necessidades e fazer um trabalho extremamente assertivo."
+      ],
+      "text": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non egestas nulla. Donec eget ipsum ac dolor fermentum sodales ac sed est. In in elementum ipsum, nec tristique libero. Sed pellentesque tellus magna, ut accumsan enim cursus sit amet. Quisque dictum dolor eget mauris laoreet, non imperdiet ante tincidunt.",
+        "Curabitur orci sapien, pellentesque vitae porta ut, tempus et odio. Donec lacus nulla, molestie ut efficitur nec, placerat a dui. Praesent scelerisque tellus quis mattis rhoncus. Maecenas congue consequat posuere. Cras elementum at lorem mollis tincidunt. Sed vehicula sit amet justo eget vulputate. Suspendisse potenti."
+      ],
+      "link": "#",
+      "btnText": "Saiba Mais"
+    },
+    {
+      "header": "Léo Noronha Fotografia",
+      "reviewerImg": "/images/profile-picture-2.webp",
+      "reviewerAlt": "Foto de perfil do usuário.",
+      "reviewerName": "Danielle Carneiro",
+      "reviewText": [
+        "Nunca imaginei que os resultados seriam tão rápidos e transformadores.",
+        "Consegui dobrar meu faturamento já no primeiro mês e triplicar em apenas três meses!"
+      ],
+      "text": [
+        "Aenean lectus lorem, venenatis in leo vel, malesuada vulputate ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin eget libero et libero iaculis consectetur. Maecenas eu enim diam. Nullam vel lobortis erat. In in lobortis neque, quis commodo purus. Integer posuere nisi ut pharetra pulvinar.",
+        "Cras tristique velit ac sapien pharetra ultricies nec ut tortor. Morbi ut fringilla nibh, at feugiat dolor. Donec luctus diam in tincidunt interdum. Integer sed tempus mi, nec mollis ipsum. Vivamus justo lorem, volutpat quis leo vitae, vulputate ornare purus.",
+        "Integer sed eros mi. Pellentesque non bibendum nisi, at maximus neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+      ],
+      "link": "#",
+      "btnText": "Saiba Mais"
+    },
+    {
+      "header": "Clínica VitaCordis",
+      "reviewerImg": "/images/profile-picture-3.webp",
+      "reviewerAlt": "Foto de perfil do usuário.",
+      "reviewerName": "Drª Flávia Ulhôa",
+      "reviewText": [
+        "Empresa super profissional, competente e sabem fazer a diferença no mercado. Continuo com eles e recomendo!"
+      ],
+      "text": [
+        "Praesent eleifend purus magna, eu consequat massa faucibus pellentesque. Integer egestas aliquam velit quis lacinia. Donec ultricies viverra pellentesque. Duis ut nunc vitae ante posuere imperdiet in id quam. Integer vel dolor tempus nunc varius congue id at lorem. Vivamus convallis et nunc id feugiat. Integer gravida lacus quis sodales ornare.",
+        "Ut a aliquet metus. Vestibulum tincidunt congue velit, ac luctus lorem iaculis ornare. Quisque semper mauris odio, sit amet ultrices elit tempor sed. Sed laoreet tincidunt justo id auctor. Duis lacinia ultricies rhoncus. Praesent ultricies molestie dictum. Vivamus finibus imperdiet magna nec eleifend. Morbi vel tincidunt sem. Proin sed elementum orci, eu auctor massa."
+      ],
+      "link": "#",
+      "btnText": "Saiba Mais"
+    }
+  ]
+}

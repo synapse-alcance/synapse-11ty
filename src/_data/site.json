@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "title": "Synapse Alcance Digital",
+    "heading": "Synapse Alcance Digital",
+    "description": "Marketing Digital | Automação",
+    "index": "/",
+    "lang": "pt-BR",
+    "charset": "utf-8"
+  },
+  "path": {
+    "prefix": "",
+    "assets": "/assets"
+  },
+  "links": {
+    "whatsapp": "https://api.whatsapp.com/send?phone=5531996458980&text=Ol%C3%A1%2C%20eu%20quero%20escalar%20o%20meu%20neg%C3%B3cio%20com%20o%20marketing%20digital%20da%20Synapse%21%0A"
+  }
+}

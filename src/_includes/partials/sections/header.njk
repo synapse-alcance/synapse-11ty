@@ -1,0 +1,14 @@
+{% from "macros/navbar.njk" import renderNavbar %}
+<!-- Logo -->
+<div id="logo">
+  <div>
+    <img src="{{ site.path.prefix }}{{ site.path.assets }}/images/logo-escudo.webp" alt="Logo da Synapse">
+  </div>
+  <h1><a href={{ site.meta.index }}>{{ site.meta.heading }}</a></h1>
+  <p>{{ site.meta.description }}</p>
+</div>
+
+<!-- Nav -->
+<nav id="nav">
+  {{ renderNavbar(navbar, page) }}
+</nav>

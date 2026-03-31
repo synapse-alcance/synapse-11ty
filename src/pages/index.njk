@@ -1,0 +1,176 @@
+---
+title: ""
+layout: "layouts/home.njk"
+permalink: "/"
+---
+
+<!-- Intro -->
+<section id="intro" class="wrapper style2">
+  <div class="title">O que fazemos</div>
+  <div class="container">
+    <!-- Services -->
+    <section id="services">
+      <header class="style1">
+        <h2>Nossos serviços, de forma simples e descomplicada.</h2>
+        <!-- Image -->
+        <a href="#" class="image featured">
+          <img src="{{ site.path.prefix }}{{ site.path.assets }}/images/home-services-banner.webp" alt="Pessoas reunidas ao fundo e tela de computador em primeiro plano com os dizeres marketing digital." />
+        </a>
+        <p>Ajudamos a sua marca a ser encontrada por quem procura pelo que ela oferece.</p>
+        <p>
+          <strong>Organizamos sua presença</strong> no Google.<br />
+          Rodamos anúncios com <strong>método e critério</strong>.<br />
+          Ajustamos tudo com base no que <strong>realmente funciona</strong>.<br />
+        </p>
+      </header>
+      <div class="feature-list">
+        <div class="row">
+        {% for item in services %}
+          {% include "partials/panels/feature.njk" %}
+        {% endfor %}
+        </div>
+      </div>
+      <ul class="actions special">
+        <li>
+          <a href="{{ site.links.whatsapp }}" class="button style1 large">
+            <i class="fa-brands fa-whatsapp"></i> Contato
+          </a>
+        </li>
+        {# <li>
+          <a href="#" class="button style2 large">Saiba mais</a>
+        </li> #}
+      </ul>
+    </section>
+  </div>
+</section>
+
+<!-- Method -->
+<section id="method" class="wrapper style3">
+  <div class="title">Como fazemos</div>
+  <div class="container">
+    <header class="style1">
+      <h2>Resultado não vem de sorte. Vem de método.</h2>
+      <p>Nosso trabalho é tornar o marketing <strong>útil para o negócio</strong>, não apenas bonito.</p>
+    </header>
+    <div class="row">
+      {% for article in method %}
+      <div class="col-6 col-12-medium">
+        <section class="highlight">
+          <div class="image featured"><img src="{{ site.path.prefix }}{{ site.path.assets }}{{ article.img }}" alt="{{ article.alt }}"></div>
+          <h3>{{ article.header }}</h3>
+          {% for paragraph in article.text %}
+          <p>{{ paragraph }}</p>            
+          {% endfor %}
+        </section>
+      </div>
+      {% endfor %}
+    </div>
+    {# <ul class="actions">
+      <li><a href="{{ site.links.whatsapp }}" class="button style3 large">Conheça</a></li>
+    </ul> #}
+  </div>
+</section>
+
+<!-- Gallery -->
+{# <section id="gallery" class="wrapper style1">
+  <div class="title">The Endorsements</div>
+  <div class="container">
+    <div class="row aln-center">
+    {% for item in highlights %}
+      {% include "partials/panels/highlight.njk" %}
+    {% endfor %}
+    </div>
+  </div>
+</section> #}
+
+<!-- Highlights -->
+<section id="gallery" class="wrapper style1">
+  <div class="title">Casos de sucesso</div>
+  <div class="container">
+    <div class="row aln-center">
+      {# {% for case in gallery %}
+      <div class="col-4 col-12-medium">
+        <section class="highlight">
+          <h3>{{ case.header }}</h3>
+          <div class="review">
+            <div class="review-header">
+              <div class="review-avatar">
+                <img src="{{ site.path.prefix }}{{ site.path.assets }}{{ case.reviewerImg }}" alt="{{ case.reviewerAlt }}">
+                <span class="reviewer">{{ case.reviewerName }}</span>
+              </div>
+              <div class="review-rating">
+                <span class="review-rating-outer">
+                  <span class="review-rating-inner"></span>
+                </span>
+              </div>
+            </div>
+            <div class="review-quote">
+              <div class="review-quote-decor">
+                “
+              </div>
+              <div class="review-quote-text">
+                {% for paragraph in case.reviewText %}
+                <p>{{ paragraph }}</p>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          <div class="case">
+            {% for paragraph in case.text %}
+            <p>{{ paragraph }}</p>
+            {% endfor %}
+          </div>
+          <ul class="actions">
+            <li><a href="{{ case.link }}" class="button style1">{{ case.btnText }}</a></li>
+          </ul>
+        </section>
+      </div>
+      {% endfor %} #}
+      {% for case in gallery %}
+      <div class="col-4 col-12-medium">
+        <section class="case">
+          <div class="review">
+            <h3>{{ case.header }}</h3>
+            <div class="review-card">
+              <div class="review-card-header">
+                <div class="review-card-avatar">
+                  <img src="{{ site.path.prefix }}{{ site.path.assets }}{{ case.reviewerImg }}" alt="{{ case.reviewerAlt }}">
+                  <span class="review-card-reviewer">
+                    {{ case.reviewerName }}
+                  </span>
+                </div>
+                <div class="review-card-rating">
+                  <span class="review-card-rating-outer">
+                    <span class="review-card-rating-inner"></span>
+                  </span>
+                </div>
+              </div>
+              <div class="review-card-quote">
+                <div class="review-card-quote-decor">
+                  “
+                </div>
+                <div class="review-card-quote-text">
+                  {% for paragraph in case.reviewText %}
+                  <p>{{ paragraph }}</p>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="case-description">
+            {% for paragraph in case.text %}
+            <p>{{ paragraph }}</p>
+            {% endfor %}
+          </div>
+          <div>
+          <ul class="actions">
+            <li><a href="{{ case.link }}" class="button style1">{{ case.btnText }}</a></li>
+          </ul>
+          </div>
+        </section>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
