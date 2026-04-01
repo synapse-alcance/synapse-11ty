@@ -10,4 +10,5 @@ export default function (eleventyConfig) {
 		"src/assets/js": site.path.prefix + site.path.assets + "/js",
 		"src/assets/webfonts": site.path.prefix + site.path.assets + "/webfonts"
 	});
+	eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 }

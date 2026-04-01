@@ -1845,7 +1845,7 @@ input, select, textarea {
 
 		@media screen and (min-width: 981px) {
 
-			.feature-list > .row > :nth-child(-n + 2) > section {
+			.feature-list > .row > :nth-child(-n + 1) > section {
 				border-top: 0;
 				padding-top: 0;
 			}
@@ -2484,6 +2484,28 @@ input, select, textarea {
 
 			#footer header.style1 .p {
 				color: inherit;
+			}
+
+		#footer .row .col-12-medium {
+			min-height: 360px;
+		}
+
+		#footer .embedded-map-wrapper {
+			width: 100%;
+			height: 100%;
+		}
+
+			#footer .embedded-map {
+				width: 100%;
+				height: 100%;
+				border: none;
+				filter: grayscale(90%);
+			}
+
+			#footer .embedded-map iframe {
+				display: block;
+				width: 100%;
+				height: 100%;
 			}
 
 		#footer .feature-list {

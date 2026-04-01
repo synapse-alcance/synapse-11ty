@@ -1,47 +1,54 @@
-<div class="title">The Rest Of It</div>
+<div class="title">Próximos Passos</div>
 <div class="container">
   <header class="style1">
-    <h2>Ipsum sapien elementum portitor?</h2>
+    <h2>Quer saber como isso se aplica a você?</h2>
     <p>
-      Sed turpis tortor, tincidunt sed ornare in metus porttitor mollis nunc in aliquet.<br />
-      Nam pharetra laoreet imperdiet volutpat etiam feugiat.
+      Disponibilizamos um relatório personalizado e gratuito da saúde digital da sua marca. <br />
+      Vamos te explicar em 15 minutos como você pode melhorar a sua presença digital. <br />
+      Sem compromisso.
     </p>
   </header>
 
   <div class="row">
-    <div class="col-6 col-12-medium">
-      <!-- Contact Form -->
-      <section>
-      {% include "partials/panels/contact-form.njk" %}
-      </section>
+    <div class="col-8 col-12-medium">
+      <!-- Embedded Map -->
+      <div class="row gtr-50 embedded-map-wrapper">
+        <div class="col-12 embedded-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1879.2531037049557!2d-44.02551067924799!3d-19.605644781583635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa661c22efdfaf1%3A0x94a74ec4837b2e7b!2sSynapse%20Alcance%20Digital%20-%20Marketing%20m%C3%A9dico!5e0!3m2!1spt-BR!2sbr!4v1775010265898!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+        </div>
+      </div>
     </div>
-    <div class="col-6 col-12-medium">
+    <div class="col-4 col-12-medium">
       <!-- Contact -->
       <section class="feature-list small">
         <div class="row">
-        {% for item in contact %}
-          <div class="col-6 col-12-small">
+          {% for item in contact %}
+          <div class="col-12 col-6-medium col-12-small">
             <section>
-              <h3 class="icon solid {{ item.icon }}">{{ item.header }}</h3>
+              <h3>
+                <i class="{{ item.style }} {{ item.icon }}" aria-hidden="true"></i>
+                {{ item.header }}
+              </h3>
               <p>
               {% if item.isText %}
                 {{ item.text | safe }}
               {% else %}
                 {% for link in item.links %}
-                  <a href="{{ link.link }}">{{ link.text }}</a>
+                  <a href="{{ link.link }}">{{ link.text }}</a> <br/>
                 {% endfor %}
               {% endif %}
               </p>
             </section>
           </div>
-        {% endfor %}
+          {% endfor %}
         </div>
       </section>
     </div>
   </div>
   <div id="copyright">
     <ul>
-      <li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+      <li>&copy; {% year %} Synapse Desenvolvimento em Tecnologia Ltda.</li>
+      <li>CNPJ: 57.073.809-0001/60</a></li>
     </ul>
   </div>
 </div>

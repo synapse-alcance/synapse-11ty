@@ -1,40 +1,44 @@
 [
     {
-      "solid": true,
-      "icon": "fa-home",
-      "header": "Mailing Address",
-      "isText": true,
-      "text": "Untitled Corp<br />\n1234 Somewhere Rd<br />\nNashville, TN 00000",
-      "links": null
-    },
-    {
-      "solid": true,
-      "icon": "fa-comment",
-      "header": "Social",
+      "style": "fa-solid",
+      "icon": "fa-file-contract",
+      "header": "Institucional",
       "isText": false,
       "text": null,
       "links": [
-        {"link": "#", "text": "@untitled-corp"},
-        {"link": "#", "text": "linkedin.com/untitled"},
-        {"link": "#", "text": "facebook.com/untitled"}
+        {"link": "#", "text": "Termos de Uso"},
+        {"link": "#", "text": "Política de Privacidade"}
       ]
     },
     {
-      "solid": true,
+      "style": "fa-solid",
+      "icon": "fa-comment",
+      "header": "Redes Sociais",
+      "isText": false,
+      "text": null,
+      "links": [
+        {"text": "Instagram", "link": "https://www.instagram.com/synapse.ad/"},
+        {"text":"Facebook", "link": "https://www.facebook.com/profile.php?id=61588654448593"}
+      ]
+    },
+    {
+      "style": "fa-solid",
       "icon": "fa-envelope",
       "header": "Email",
       "isText": false,
       "text": null,
       "links": [
-        {"link": "#", "text": "info@untitled.tld"}
+        {"link": "mailto:contato@synapse.ad", "text": "contato@synapse.ad"}
       ]
     },
     {
-      "solid": true,
-      "icon": "fa-phone",
-      "header": "Phone",
-      "isText": true,
-      "text": "(000) 555-0000",
-      "links": null
+      "style": "fa-brands",
+      "icon": "fa-square-whatsapp",
+      "header": "WhatsApp",
+      "isText": false,
+      "text": null,
+      "links": [
+        {"text": "(31) 99645-8980", "link": "https://api.whatsapp.com/send?phone=5531996458980&text=Ol%C3%A1%2C%20eu%20quero%20escalar%20o%20meu%20neg%C3%B3cio%20com%20o%20marketing%20digital%20da%20Synapse%21%0A"}
+      ]
     }
 ]
