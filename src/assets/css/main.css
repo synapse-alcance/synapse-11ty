@@ -2396,6 +2396,32 @@ input, select, textarea {
 			text-indent: 0.75em;
 		}
 
+/* Segments */
+
+	#segments .image.featured {
+		margin: 0;
+		height: 100%;
+	}
+
+		#segments .image.featured img {
+			height: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+
+	#segments .segments-content h3 {
+		font-size: 1.5em;
+		margin-top: 1.25em;
+	}
+
+	#segments .segments-content h3:first-of-type {
+		margin-top: 0.75em;
+	}
+
+	#segments .segments-content p {
+		margin: 0.75em 0;
+	}
+
 /* Main */
 
 /* Footer */
@@ -2705,13 +2731,17 @@ input, select, textarea {
 				margin-right: auto;
 			}
 
+		/* Segments */
+			#segments .segments-content h3:first-of-type {
+				margin-top: 0;
+			}
+
 		/* Footer */
 
 			#footer .feature-list {
 				border-top: solid 1px rgba(255, 255, 255, 0.05);
 				padding-top: 4em;
 			}
-
 	}
 
 		@media screen and (max-width: 980px) and (min-width: 737px) {
