@@ -1865,6 +1865,11 @@ input, select, textarea {
 			letter-spacing: 0.05em;
 		}
 
+
+			.feature-list h3.alternative {
+				color: var(--color-brand-main-0) !important;
+			}
+
 			.feature-list h3 > i {
 				display: block;
 				color: var(--color-light-1);
