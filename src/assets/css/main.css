@@ -95,7 +95,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: var(--font-family-sans-base);
 		font-weight: 400;
-		color: var(--color-1);
+		color: var(--color-medium-2);
 		font-size: 14pt;
 		line-height: 1.75em;
 		letter-spacing: 0.025em;
@@ -103,7 +103,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 700;
-		color: var(--color-2);
+		color: var(--color-medium-3);
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -117,7 +117,7 @@ input, select, textarea {
 		-ms-transition: color .25s ease-in-out;
 		transition: color .25s ease-in-out;
 		text-decoration: underline;
-		color: var(--color-3);
+		color: var(--color-medium-2);
 	}
 
 		a:hover {
@@ -126,7 +126,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 700;
-		color: var(--color-2);
+		color: var(--color-medium-3);
 	}
 
 	blockquote {
@@ -1460,7 +1460,7 @@ input, select, textarea {
 		}
 
 		header.style1 p {
-			color: var(--color-5);
+			color: var(--color-medium-1);
 			display: block;
 			margin: 1.15em 0 0 0;
 			font-size: 1.3em;
@@ -1500,7 +1500,7 @@ input, select, textarea {
 			}
 
 			table.default thead {
-				background: var(--color-2);
+				background: var(--color-medium-3);
 				color: var(--color-light-1);
 			}
 
@@ -1513,7 +1513,7 @@ input, select, textarea {
 	form label {
 		display: block;
 		font-weight: 700;
-		color: var(--color-2);
+		color: var(--color-medium-3);
 		margin: 0.25em 0 0.5em 0;
 	}
 
@@ -1530,7 +1530,7 @@ input, select, textarea {
 		display: block;
 		border: 0;
 		background: var(--color-light-1);
-		box-shadow: inset 0px 0px 1px 0px var(--color-10);
+		box-shadow: inset 0px 0px 1px 0px var(--color-medium-1);
 		border-radius: 0.35em;
 		width: 100%;
 		padding: 0.75em 1em 0.75em 1em;
@@ -1563,23 +1563,23 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: var(--color-9) !important;
+		color: var(--color-medium-3) !important;
 		font-style: italic;
 		line-height: 1.35em;
 	}
 
 	form :-moz-placeholder {
-		color: var(--color-9) !important;
+		color: var(--color-medium-3) !important;
 		font-style: italic;
 	}
 
 	form ::-moz-placeholder {
-		color: var(--color-9) !important;
+		color: var(--color-medium-3) !important;
 		font-style: italic;
 	}
 
 	form :-ms-input-placeholder {
-		color: var(--color-9) !important;
+		color: var(--color-medium-3) !important;
 		font-style: italic;
 	}
 
@@ -1636,7 +1636,7 @@ input, select, textarea {
 		-ms-transition: all .25s ease-in-out;
 		transition: all .25s ease-in-out;
 		display: inline-block;
-		background: var(--color-38);
+		background: var(--color-dark-1);
 		text-align: center;
 		text-transform: uppercase;
 		font-weight: 700;
@@ -1701,8 +1701,8 @@ input, select, textarea {
 		button.style2,
 		.button.style2 {
 			background: none;
-			color: var(--color-16);
-			box-shadow: inset 0px 0px 2px 0px var(--color-15);
+			color: var(--color-medium-3);
+			box-shadow: inset 0px 0px 2px 0px var(--color-medium-1);
 		}
 
 			input[type="button"].style2:hover,
@@ -1710,7 +1710,7 @@ input, select, textarea {
 			input[type="reset"].style2:hover,
 			button.style2:hover,
 			.button.style2:hover {
-				box-shadow: inset 0px 0px 2px 0px var(--color-16);
+				box-shadow: inset 0px 0px 2px 0px var(--color-medium-3);
 			}
 
 			input[type="button"].style2:active,
@@ -1718,7 +1718,7 @@ input, select, textarea {
 			input[type="reset"].style2:active,
 			button.style2:active,
 			.button.style2:active {
-				box-shadow: inset 0px 0px 2px 0px var(--color-37);
+				box-shadow: inset 0px 0px 2px 0px var(--color-dark-2);
 			}
 
 		input[type="button"].style3,
@@ -1726,7 +1726,7 @@ input, select, textarea {
 		input[type="reset"].style3,
 		button.style3,
 		.button.style3 {
-			background: var(--color-19) url("images/overlay.png");
+			background: var(--color-dark-2) url("images/overlay.png");
 			color: var(--color-light-1);
 		}
 
@@ -1735,7 +1735,7 @@ input, select, textarea {
 			input[type="reset"].style3:hover,
 			button.style3:hover,
 			.button.style3:hover {
-				background-color: var(--color-17);
+				background-color: var(--color-dark-1);
 			}
 
 			input[type="button"].style3:active,
@@ -1743,7 +1743,7 @@ input, select, textarea {
 			input[type="reset"].style3:active,
 			button.style3:active,
 			.button.style3:active {
-				background-color: var(--color-18);
+				background-color: var(--color-dark-2);
 			}
 
 /* List */
@@ -1862,7 +1862,7 @@ input, select, textarea {
 			.feature-list h3 > i {
 				display: block;
 				color: var(--color-light-1);
-				background: var(--color-19) url("images/overlay.png");
+				background: var(--color-dark-2) url("images/overlay.png");
 				border-radius: 2.5em;
 				text-align: center;
 				width: 2.5em;
@@ -1992,7 +1992,7 @@ input, select, textarea {
 		.wrapper.style1 {
 			background: var(--color-13) url("images/overlay.png");
 			color: var(--color-light-1);
-			color: var(--color-20);
+			color: var(--color-transparency-light-1);
 		}
 
 			.wrapper.style1 .title {
@@ -2010,7 +2010,7 @@ input, select, textarea {
 
 			.wrapper.style2 .title {
 				background: var(--color-light-1);
-				color: var(--color-2);
+				color: var(--color-medium-3);
 			}
 
 		.wrapper.style3 {
@@ -2019,7 +2019,7 @@ input, select, textarea {
 
 			.wrapper.style3 .title {
 				background: var(--color-light-1) url("images/overlay.png");
-				color: var(--color-2);
+				color: var(--color-medium-3);
 			}
 
 			.wrapper.style3 .image {
@@ -2095,7 +2095,7 @@ input, select, textarea {
 		}
 
 		#logo p {
-			color: var(--color-21);
+			color: var(--color-transparency-light-2);
 			text-transform: uppercase;
 			margin: 1.25em 0 0 0;
 			display: block;
@@ -2117,7 +2117,7 @@ input, select, textarea {
 		#nav > ul {
 			display: inline-block;
 			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px var(--color-21);
+			box-shadow: inset 0px 0px 1px 1px var(--color-transparency-light-2);
 			padding: 0 1.5em 0 1.5em;
 		}
 
@@ -2133,7 +2133,7 @@ input, select, textarea {
 
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
-					color: var(--color-20);
+					color: var(--color-transparency-light-1);
 					text-transform: uppercase;
 					text-decoration: none;
 					font-size: 0.65em;
@@ -2157,11 +2157,11 @@ input, select, textarea {
 				}
 
 	.dropotron {
-		background: var(--color-22) url("images/overlay.png");
-		background-color: var(--color-23);
+		background: var(--color-dark-2) url("images/overlay.png");
+		background-color: var(--color-dark-1);
 		padding: 1.25em 1em 1.25em 1em;
 		border-radius: 0.35em;
-		box-shadow: inset 0px 0px 1px 1px var(--color-24);
+		box-shadow: inset 0px 0px 1px 1px var(--color-transparency-light-3);
 		min-width: 12em;
 		text-align: left;
 		margin-top: -1.25em;
@@ -2183,12 +2183,12 @@ input, select, textarea {
 			transition: all .25s ease-in-out;
 			display: block;
 			color: var(--color-light-1);
-			color: var(--color-20);
+			color: var(--color-transparency-light-1);
 			text-transform: uppercase;
 			text-decoration: none;
 			font-size: 0.7em;
 			letter-spacing: 0.25em;
-			border-top: solid 1px var(--color-25);
+			border-top: solid 1px var(--color-transparency-light-4);
 			line-height: 3em;
 		}
 
@@ -2251,7 +2251,7 @@ input, select, textarea {
 			font-weight: 700;
 			color: var(--color-light-1);
 			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px var(--color-24);
+			box-shadow: inset 0px 0px 1px 1px var(--color-transparency-light-3);
 			font-size: 2.75em;
 			letter-spacing: 0.075em;
 			line-height: 1.35em;
@@ -2424,8 +2424,8 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: var(--color-26) url("images/overlay.png");
-		color: var(--color-21);
+		background: var(--color-dark-2) url("images/overlay.png");
+		color: var(--color-transparency-light-2);
 		padding-bottom: 6em;
 	}
 
@@ -2434,8 +2434,8 @@ input, select, textarea {
 		}
 
 		#footer hr {
-			border-top-color: var(--color-27);
-			border-top-color: var(--color-28);
+			border-top-color: var(--color-dark-1);
+			border-top-color: var(--color-transparency-light-4);
 		}
 
 		#footer form input[type="text"],
@@ -2461,7 +2461,7 @@ input, select, textarea {
 		#footer button,
 		#footer .button {
 			color: var(--color-light-1);
-			box-shadow: inset 0px 0px 2px 0px var(--color-21);
+			box-shadow: inset 0px 0px 2px 0px var(--color-transparency-light-2);
 		}
 
 			#footer input[type="button"]:hover,
@@ -2470,7 +2470,7 @@ input, select, textarea {
 			#footer button:hover,
 			#footer .button:hover {
 				color: var(--color-light-1);
-				box-shadow: inset 0px 0px 2px 0px var(--color-30);
+				box-shadow: inset 0px 0px 2px 0px var(--color-transparency-light-1);
 			}
 
 			#footer input[type="button"]:active,
@@ -2478,7 +2478,7 @@ input, select, textarea {
 			#footer input[type="reset"]:active,
 			#footer button:active,
 			#footer .button:active {
-				box-shadow: inset 0px 0px 2px 0px var(--color-20);
+				box-shadow: inset 0px 0px 2px 0px var(--color-transparency-light-1);
 			}
 
 			#footer input[type="button"].style2:active,
@@ -2486,18 +2486,18 @@ input, select, textarea {
 			#footer input[type="reset"].style2:active,
 			#footer button.style2:active,
 			#footer .button.style2:active {
-				box-shadow: inset 0px 0px 2px 0px var(--color-20);
+				box-shadow: inset 0px 0px 2px 0px var(--color-transparency-light-1);
 			}
 
 		#footer .title {
-			background: var(--color-26) url("images/overlay.png");
+			background: var(--color-dark-2) url("images/overlay.png");
 			color: var(--color-light-1);
 		}
 
 		#footer header.style1 {
 			padding-bottom: 6em;
 			margin-bottom: 6em;
-			border-bottom: solid 1px var(--color-28);
+			border-bottom: solid 1px var(--color-transparency-light-4);
 		}
 
 			#footer header.style1 h2 {
@@ -2535,11 +2535,11 @@ input, select, textarea {
 		}
 
 			#footer .feature-list section {
-				border-top-color: var(--color-28);
+				border-top-color: var(--color-transparency-light-4);
 			}
 
 			#footer .feature-list h3 > i {
-				background: var(--color-31) url("images/overlay.png");
+				background: var(--color-dark-1) url("images/overlay.png");
 			}
 
 /* Copyright */
@@ -2548,14 +2548,14 @@ input, select, textarea {
 		text-align: center;
 		padding-top: 6em;
 		margin-top: 6em;
-		border-top: solid 1px var(--color-28);
+		border-top: solid 1px var(--color-transparency-light-4);
 	}
 
 		#copyright ul {
 			display: inline-block;
 			border-radius: 0.35em;
-			box-shadow: inset 0px 0px 1px 1px var(--color-28);
-			color: var(--color-24);
+			box-shadow: inset 0px 0px 1px 1px var(--color-transparency-light-4);
+			color: var(--color-transparency-light-3);
 			padding: 0.75em 2em;
 			font-size: 0.9em;
 		}
@@ -2564,8 +2564,8 @@ input, select, textarea {
 				display: inline-block;
 				margin-left: 1em;
 				padding-left: 1em;
-				border-left: solid 1px var(--color-27);
-				border-left-color: var(--color-28);
+				border-left: solid 1px var(--color-dark-1);
+				border-left-color: var(--color-transparency-light-4);
 			}
 
 				#copyright ul li:first-child {
@@ -2653,7 +2653,7 @@ input, select, textarea {
 				#footer header.style1 {
 					padding-bottom: 4em;
 					margin-bottom: 4em;
-					border-bottom: solid 1px var(--color-28);
+					border-bottom: solid 1px var(--color-transparency-light-4);
 				}
 
 		/* Copyright */
@@ -2734,7 +2734,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer .feature-list {
-				border-top: solid 1px var(--color-28);
+				border-top: solid 1px var(--color-transparency-light-4);
 				padding-top: 4em;
 			}
 	}
@@ -2823,13 +2823,13 @@ input, select, textarea {
 						height: 38px;
 						line-height: 38px;
 						text-align: center;
-						color: var(--color-20);
-						background-color: var(--color-33);
+						color: var(--color-transparency-light-1);
+						background-color: var(--color-transparency-medium-1);
 						border-radius: 0.25em;
 					}
 
 					#titleBar .toggle:active:before {
-						background-color: var(--color-34);
+						background-color: var(--color-transparency-medium-1);
 					}
 
 			#navPanel {
@@ -2853,13 +2853,13 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: var(--color-36) url("images/overlay.png");
-				box-shadow: inset -3px 0px 4px 0px var(--color-35);
+				background: var(--color-dark-2) url("images/overlay.png");
+				box-shadow: inset -3px 0px 4px 0px var(--color-transparency-dark-1);
 			}
 
 				#navPanel .link {
 					display: block;
-					color: var(--color-21);
+					color: var(--color-transparency-light-2);
 					text-transform: uppercase;
 					text-decoration: none;
 					font-size: 0.85em;
@@ -2867,7 +2867,7 @@ input, select, textarea {
 					text-decoration: none;
 					height: 44px;
 					line-height: 44px;
-					border-top: solid 1px var(--color-28);
+					border-top: solid 1px var(--color-transparency-light-4);
 					margin: 0 15px 0 15px;
 				}
 
