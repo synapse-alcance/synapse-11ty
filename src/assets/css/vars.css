@@ -1,6 +1,7 @@
 :root {
   --color-light-1: #fff;
-  --color-light-2: #ccc;
+  --color-light-2: #eee;
+  --color-light-3: #ccc;
   --color-medium-1: #bbb;
   --color-medium-2: #888;
   --color-medium-3: #585858;
@@ -14,9 +15,10 @@
   --color-transparency-medium-1: rgba(92, 95, 103, 0.5);
   --color-transparency-dark-1: rgba(0, 0, 0, 0.1);
 
-  --color-brand-main-1: #faa307;
-  --color-brand-main-2: #f48c06;
-  --color-brand-main-3: #e85d04;
+  --color-brand-main-0: #ffba08;
+  --color-brand-main-1: #f48c06;
+  --color-brand-main-2: #dc2f02;
+  --color-brand-main-3: #6a040f;
   --color-brand-alt-1: #48cee4;
   --color-brand-alt-2: #0096c7;
   --color-brand-alt-3: #023e8a;

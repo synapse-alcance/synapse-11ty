@@ -130,7 +130,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 0.5em var(--color-light-2);
+		border-left: solid 0.5em var(--color-light-3);
 		padding: 1em 0 1em 2em;
 		font-style: italic;
 	}
@@ -141,7 +141,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-top: solid 1px var(--color-light-2);
+		border-top: solid 1px var(--color-light-3);
 		margin: 2em 0 2em 0;
 	}
 
@@ -1460,7 +1460,7 @@ input, select, textarea {
 		}
 
 		header.style1 p {
-			color: var(--color-medium-1);
+			color: var(--color-medium-2);
 			display: block;
 			margin: 1.15em 0 0 0;
 			font-size: 1.3em;
@@ -1675,7 +1675,8 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: var(--color-brand-main-2) url("images/overlay.png");
+			background-color:
+				color-mix(in srgb, var(--color-brand-alt-2) 50%, transparent);
 			color: var(--color-light-1);
 		}
 
@@ -1684,7 +1685,8 @@ input, select, textarea {
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: var(--color-brand-main-2);
+				background-color:
+					color-mix(in srgb, var(--color-brand-main-0) 90%, transparent);
 			}
 
 			input[type="button"].style1:active,
@@ -1692,7 +1694,8 @@ input, select, textarea {
 			input[type="reset"].style1:active,
 			button.style1:active,
 			.button.style1:active {
-				background-color: var(--color-brand-main-2);
+				background-color:
+					color-mix(in srgb, var(--color-brand-main-0) 90%, transparent);
 			}
 
 		input[type="button"].style2,
@@ -1990,14 +1993,17 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: var(--color-brand-main-2) url("images/overlay.png");
-			color: var(--color-light-1);
+			background:
+				var(--color-brand-alt-3)
+				url("images/bright-squares.png");
 			color: var(--color-transparency-light-1);
 		}
 
 			.wrapper.style1 .title {
-				background: var(--color-brand-main-2) url("images/overlay.png");
-				color: var(--color-light-1);
+				background:
+					var(--color-brand-alt-3)
+					url("images/bright-squares.png");
+				color: var(--color-transparency-light-1);
 			}
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
@@ -2014,11 +2020,11 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background: var(--color-light-1) url("images/overlay.png");
+			background: var(--color-light-2) url("images/overlay.png");
 		}
 
 			.wrapper.style3 .title {
-				background: var(--color-light-1) url("images/overlay.png");
+				background: var(--color-light-2) url("images/overlay.png");
 				color: var(--color-medium-3);
 			}
 
@@ -2443,7 +2449,7 @@ input, select, textarea {
 		#footer form input[type="password"],
 		#footer form select,
 		#footer form textarea {
-			background: var(--color-light-2);
+			background: var(--color-light-3);
 			box-shadow: none;
 		}
 
