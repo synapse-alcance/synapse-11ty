@@ -1,42 +1,51 @@
 :root {
-  --color-1: #919499; /* body, input, textarea, select */
-  --color-2: #484d55; /* h1, h2, h3, h4, h5, h6 */
-  --color-3: #717479; /* a */
-  --color-4: #ddd; /* border */
-  --color-5: #b1b4b9; /* header.style1 p */
-  --color-6: #f4f4f4;
   --color-7: #fff; 
+  --color-6: #f4f4f4;
   --color-8: #eee; 
-  --color-9: #555;
-  --color-10: #a0a1a7;
   --color-11: #f8f8f8;
-  --color-12: #f98780;
-  --color-13: #e97770;
-  --color-14: #d96760;
+  --color-4: #ddd; /* border */
+  --color-29: #ccc;
+  
+  --color-5: #b1b4b9; /* header.style1 p */
+  --color-32: #aaa;
+  --color-10: #a0a1a7;
   --color-15: #a0a1a7;
+  --color-1: #919499; /* body, input, textarea, select */
+  
+  --color-3: #717479; /* a */
   --color-16: #606167;
+  --color-9: #555;
+  --color-2: #484d55; /* h1, h2, h3, h4, h5, h6 */
+  
   --color-17: #3f434b;
+  --color-31: #3d4249;
   --color-18: #1f232b;
   --color-19: #2f333b;
-  --color-20: rgba(255, 255, 255, 0.75);
-  --color-21: rgba(255, 255, 255, 0.5);
   --color-22: #222835;
-  --color-23: rgba(44, 50, 63, 0.925);
-  --color-24: rgba(255, 255, 255, 0.25); /* box-shadow */
-  --color-25: rgba(255, 255, 255, 0.15);
   --color-26: #282b34;
   --color-27: #333;
-  --color-28: rgba(255, 255, 255, 0.05);
-  --color-29: #ccc;
-  --color-30: rgba(255, 255, 255, 0.65);
   --color-31: #3d4249;
-  --color-32: #aaa;
-  --color-33: rgba(92, 95, 103, 0.5);
-  --color-34: rgba(92, 95, 103, 0.75);
-  --color-35: rgba(0, 0, 0, 0.1);
   --color-36: #242730;
   --color-37: #202127;
   --color-38: #444;
+
+  --color-12: #f98780;
+  --color-13: #e97770;
+  --color-14: #d96760;
+  
+  --color-20: rgba(255, 255, 255, 0.75);
+  --color-30: rgba(255, 255, 255, 0.65);
+  --color-21: rgba(255, 255, 255, 0.5);
+  --color-24: rgba(255, 255, 255, 0.25); /* box-shadow */
+  --color-25: rgba(255, 255, 255, 0.15);
+  --color-28: rgba(255, 255, 255, 0.05);
+  
+  --color-33: rgba(92, 95, 103, 0.5);
+  --color-34: rgba(92, 95, 103, 0.75);
+  
+  --color-23: rgba(44, 50, 63, 0.925);
+  --color-35: rgba(0, 0, 0, 0.1);
+  
 
   /* Typography */
   --font-family-serif-base: "Playfair Display", serif;
