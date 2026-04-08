@@ -130,7 +130,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 0.5em var(--color-4);
+		border-left: solid 0.5em var(--color-light-2);
 		padding: 1em 0 1em 2em;
 		font-style: italic;
 	}
@@ -141,7 +141,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-top: solid 1px var(--color-4);
+		border-top: solid 1px var(--color-light-2);
 		margin: 2em 0 2em 0;
 	}
 
@@ -1486,7 +1486,7 @@ input, select, textarea {
 		}
 
 			table.default tbody tr:nth-child(2n+2) {
-				background: var(--color-6);
+				background: var(--color-light-1);
 			}
 
 			table.default td {
@@ -1501,11 +1501,11 @@ input, select, textarea {
 
 			table.default thead {
 				background: var(--color-2);
-				color: var(--color-7);
+				color: var(--color-light-1);
 			}
 
 			table.default tfoot {
-				background: var(--color-8);
+				background: var(--color-light-1);
 			}
 
 /* Form */
@@ -1529,7 +1529,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		display: block;
 		border: 0;
-		background: var(--color-8);
+		background: var(--color-light-1);
 		box-shadow: inset 0px 0px 1px 0px var(--color-10);
 		border-radius: 0.35em;
 		width: 100%;
@@ -1541,7 +1541,7 @@ input, select, textarea {
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			background: var(--color-11);
+			background: var(--color-light-1);
 		}
 
 	form input[type="text"],
@@ -1676,7 +1676,7 @@ input, select, textarea {
 		button.style1,
 		.button.style1 {
 			background: var(--color-13) url("images/overlay.png");
-			color: var(--color-7);
+			color: var(--color-light-1);
 		}
 
 			input[type="button"].style1:hover,
@@ -1727,7 +1727,7 @@ input, select, textarea {
 		button.style3,
 		.button.style3 {
 			background: var(--color-19) url("images/overlay.png");
-			color: var(--color-7);
+			color: var(--color-light-1);
 		}
 
 			input[type="button"].style3:hover,
@@ -1763,7 +1763,7 @@ input, select, textarea {
 		}
 
 			ul.style2 li {
-				border-top: solid 1px var(--color-8);
+				border-top: solid 1px var(--color-light-1);
 				padding: 1.5em 0 0 0;
 				margin: 1.5em 0 0 0;
 			}
@@ -1780,7 +1780,7 @@ input, select, textarea {
 		}
 
 			ul.style3 li {
-				border-top: solid 1px var(--color-8);
+				border-top: solid 1px var(--color-light-1);
 				padding: 0.5em 0 0 0;
 				margin: 0.5em 0 0 0;
 			}
@@ -1837,7 +1837,7 @@ input, select, textarea {
 	}
 
 		.feature-list section {
-			border-top: solid 1px var(--color-8);
+			border-top: solid 1px var(--color-light-1);
 			padding-top: 3em;
 			padding-left: 5em;
 			position: relative;
@@ -1861,7 +1861,7 @@ input, select, textarea {
 
 			.feature-list h3 > i {
 				display: block;
-				color: var(--color-7);
+				color: var(--color-light-1);
 				background: var(--color-19) url("images/overlay.png");
 				border-radius: 2.5em;
 				text-align: center;
@@ -1991,39 +1991,39 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background: var(--color-13) url("images/overlay.png");
-			color: var(--color-8);
+			color: var(--color-light-1);
 			color: var(--color-20);
 		}
 
 			.wrapper.style1 .title {
 				background: var(--color-13) url("images/overlay.png");
-				color: var(--color-7);
+				color: var(--color-light-1);
 			}
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
-				color: var(--color-7);
+				color: var(--color-light-1);
 			}
 
 		.wrapper.style2 {
-			background: var(--color-7);
+			background: var(--color-light-1);
 		}
 
 			.wrapper.style2 .title {
-				background: var(--color-7);
+				background: var(--color-light-1);
 				color: var(--color-2);
 			}
 
 		.wrapper.style3 {
-			background: var(--color-6) url("images/overlay.png");
+			background: var(--color-light-1) url("images/overlay.png");
 		}
 
 			.wrapper.style3 .title {
-				background: var(--color-6) url("images/overlay.png");
+				background: var(--color-light-1) url("images/overlay.png");
 				color: var(--color-2);
 			}
 
 			.wrapper.style3 .image {
-				border: solid 10px var(--color-7);
+				border: solid 10px var(--color-light-1);
 			}
 
 /* Page Wrapper */
@@ -2089,7 +2089,7 @@ input, select, textarea {
 		#logo h1 {
 			font-weight: 900;
 			text-transform: uppercase;
-			color: var(--color-7);
+			color: var(--color-light-1);
 			font-size: 2em;
 			letter-spacing: 0.25em;
 		}
@@ -2149,11 +2149,11 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a {
-					color: var(--color-7);
+					color: var(--color-light-1);
 				}
 
 				#nav > ul > li.active > a, #nav > ul > li.active > span {
-					color: var(--color-7);
+					color: var(--color-light-1);
 				}
 
 	.dropotron {
@@ -2182,7 +2182,7 @@ input, select, textarea {
 			-ms-transition: all .25s ease-in-out;
 			transition: all .25s ease-in-out;
 			display: block;
-			color: var(--color-8);
+			color: var(--color-light-1);
 			color: var(--color-20);
 			text-transform: uppercase;
 			text-decoration: none;
@@ -2201,7 +2201,7 @@ input, select, textarea {
 			}
 
 			.dropotron li:hover > a, .dropotron li:hover > span {
-				color: var(--color-7);
+				color: var(--color-light-1);
 			}
 
 /* Services */
@@ -2249,7 +2249,7 @@ input, select, textarea {
 
 		#method p.style2 {
 			font-weight: 700;
-			color: var(--color-7);
+			color: var(--color-light-1);
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 1px 1px var(--color-24);
 			font-size: 2.75em;
@@ -2430,7 +2430,7 @@ input, select, textarea {
 	}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a {
-			color: var(--color-7);
+			color: var(--color-light-1);
 		}
 
 		#footer hr {
@@ -2443,7 +2443,7 @@ input, select, textarea {
 		#footer form input[type="password"],
 		#footer form select,
 		#footer form textarea {
-			background: var(--color-29);
+			background: var(--color-light-2);
 			box-shadow: none;
 		}
 
@@ -2452,7 +2452,7 @@ input, select, textarea {
 			#footer form input[type="password"]:focus,
 			#footer form select:focus,
 			#footer form textarea:focus {
-				background: var(--color-7);
+				background: var(--color-light-1);
 			}
 
 		#footer input[type="button"],
@@ -2460,7 +2460,7 @@ input, select, textarea {
 		#footer input[type="reset"],
 		#footer button,
 		#footer .button {
-			color: var(--color-7);
+			color: var(--color-light-1);
 			box-shadow: inset 0px 0px 2px 0px var(--color-21);
 		}
 
@@ -2469,7 +2469,7 @@ input, select, textarea {
 			#footer input[type="reset"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				color: var(--color-7);
+				color: var(--color-light-1);
 				box-shadow: inset 0px 0px 2px 0px var(--color-30);
 			}
 
@@ -2491,7 +2491,7 @@ input, select, textarea {
 
 		#footer .title {
 			background: var(--color-26) url("images/overlay.png");
-			color: var(--color-8);
+			color: var(--color-light-1);
 		}
 
 		#footer header.style1 {
@@ -2501,7 +2501,7 @@ input, select, textarea {
 		}
 
 			#footer header.style1 h2 {
-				color: var(--color-7);
+				color: var(--color-light-1);
 			}
 
 			#footer header.style1 .p {
@@ -2579,7 +2579,7 @@ input, select, textarea {
 		}
 
 			#copyright a:hover {
-				color: var(--color-7);
+				color: var(--color-light-1);
 			}
 
 /* XLarge */
@@ -2901,7 +2901,7 @@ input, select, textarea {
 				}
 
 				#navPanel .depth-0 {
-					color: var(--color-7);
+					color: var(--color-light-1);
 				}
 
 			body.navPanel-visible #page-wrapper {
