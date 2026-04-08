@@ -13,10 +13,13 @@
   --color-transparency-light-4: rgba(255, 255, 255, 0.1);
   --color-transparency-medium-1: rgba(92, 95, 103, 0.5);
   --color-transparency-dark-1: rgba(0, 0, 0, 0.1);
-  
-  --color-12: #f98780;
-  --color-13: #e97770;
-  --color-14: #d96760;
+
+  --color-brand-main-1: #faa307;
+  --color-brand-main-2: #f48c06;
+  --color-brand-main-3: #e85d04;
+  --color-brand-alt-1: #48cee4;
+  --color-brand-alt-2: #0096c7;
+  --color-brand-alt-3: #023e8a;
 
   /* Typography */
   --font-family-serif-base: "Playfair Display", serif;
